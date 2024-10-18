@@ -1,0 +1,6 @@
+{
+    cmdlines = {
+        "xmake f --toolchain=gcc-14 -c",
+        "xmake "
+    }
+}
