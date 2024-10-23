@@ -1,12 +1,10 @@
-#include "include/vector2.hpp"
-
+#include "include/RightGUI.hpp"
 #include <cstdlib>
-#include <iostream>
-
-using namespace std;
 
 int main(void){
-	RightGUI::vector2 a; 
-
-	return EXIT_SUCCESS;
+    RightGUI::ApplicationSettings::SetName("test");
+    RightGUI::ApplicationSettings::SetVersion(RightGUI::version(0, 0, 1));
+    RightGUI::init();
+    
+    return EXIT_SUCCESS;
 }
