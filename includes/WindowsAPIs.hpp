@@ -1,0 +1,10 @@
+#pragma once
+
+#ifndef RIGHTGUI_WINDOWSAPIS_HPP
+#define RIGHTGUI_WINDOWSAPIS_HPP
+
+#ifdef RIGHTGUI_WINDOWSAPIS_GLFW
+#include "WindowsAPIs/GLFW.hpp"
+#endif
+
+#endif // RIGHTGUI_WINDOWSAPIS_HPP
