@@ -7,11 +7,16 @@ add_requires(
     {system = true}
 )
 
-target("RightGUI")
-    set_kind("static")
+target("RightGUItest")
+    set_kind("binary")
+    add_linkdirs(
+        "../build/linux/x86_64/release"
+    )
+    add_links(
+        "RightGUI"
+    )
     add_files(
-        "sources/*.cpp",
-        "sources/*/*.cpp"
+        "main.cpp"
     )
     add_packages(
         "glfw3",

@@ -1,8 +1,0 @@
-{
-    find_program = {
-        gcc = "/usr/bin/gcc"
-    },
-    ["find_program_gcc-14_arch_x86_64_plat_linux_checktoolar"] = {
-        ar = "/usr/bin/ar"
-    }
-}
