@@ -5,7 +5,7 @@
 2. Установить глобально на Вашем устройстве библиотеку любого поддерживающего [WindowsAPI](https://en.wikipedia.org/wiki/Category:Windows_APIs), поддерживающие можно посмотреть в файле [WindowsAPIs.md](WindowsAPIs.md)
 2. Установить на Вашем устройстве [git](https://git-scm.com/)
 3. Установить на Вашем устройстве [xmake](https://xmake.io/#/)
-4. Скачать репозитории [RightGUI](https://github.com/HotWizard/RightGUI) с помощью команды ```git clone https://github.com/HotWizard/RightGUIi && cd RightGUI```
+4. Скачать репозиторий [RightGUI](https://github.com/HotWizard/RightGUI) с помощью команды ```git clone https://github.com/HotWizard/RightGUIi && cd RightGUI```
 5. Запустить команду ```xmake f --toolchain=gcc-12 -c && xmake```
 
 Если при выполнении всех этих этапов не возникло никакаих ошибок то файл ```libRightGUI.a``` будет находиться по пути ```RightGUI/build/linux/x86_64/release```
